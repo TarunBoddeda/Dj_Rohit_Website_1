@@ -2,6 +2,10 @@ import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { TextPlugin } from "gsap/TextPlugin";
+import img1 from "./assets/2.jpg";
+import img2 from "./assets/new2.jpg";
+import img3 from "./assets/4.jpg";
+import img4 from "./assets/6.jpg";
 import {
   Music,
   Headphones,
@@ -22,12 +26,7 @@ function App() {
   const loadingRef = useRef<HTMLDivElement>(null);
   const [currentSlide, setCurrentSlide] = React.useState(0);
 
-  const slides = [
-    "./assets/2.jpg",
-    "./assets/new2.jpg",
-    "./assets/4.jpg",
-    "./assets/6.jpg",
-  ];
+  const slides = [img1, img2, img3, img4];
 
   useEffect(() => {
     const ctx = gsap.context(() => {
