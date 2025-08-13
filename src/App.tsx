@@ -168,8 +168,6 @@ function App() {
       }
     });
   }, [currentSlide]);
-
-  // Commented useEffect(() => {
   //   gsap.to(".dj-logo", {
   //     opacity: 1,
   //     scale: 1,
