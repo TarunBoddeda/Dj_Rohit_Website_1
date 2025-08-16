@@ -24,10 +24,10 @@ function App() {
   const [currentSlide, setCurrentSlide] = React.useState(0);
 
   const slides = [
-    "./dist/assets1/2.jpg",
-    "./dist/assets1/new2.jpg",
-    "./dist/assets1/4.jpg",
-    "./dist/assets1/6.jpg",
+    "./dist/assets/images/2.jpg",
+    "./dist/assets/images/new2.jpg",
+    "./dist/assets/images/4.jpg",
+    "./dist/assets/images/6.jpg",
   ];
 
   useEffect(() => {
