@@ -24,10 +24,10 @@ function App() {
   const [currentSlide, setCurrentSlide] = React.useState(0);
 
   const slides = [
-    "./images/2.jpg",
-    "./images/new2.jpg",
-    "./images/4.jpg",
-    "./images/6.jpg",
+    "./src/images/2.jpg",
+    "./src/images/new2.jpg",
+    "./src/images/4.jpg",
+    "./src/images/6.jpg",
   ];
 
   useEffect(() => {
@@ -304,7 +304,7 @@ function App() {
       <section
         className='py-20 px-6 relative'
         style={{
-          backgroundImage: `url(${"./images/20.jpg"})`,
+          backgroundImage: `url(${"./src/images/20.jpg"})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -314,7 +314,7 @@ function App() {
           <div className='animate-on-scroll text-center mb-16'>
             <div className='img-cent w-96 mx-auto flex flex-col items-center mb-10'>
               <img
-                src='./images/11.png'
+                src='./src/images/11.png'
                 alt='Dj Rks Logo'
               />
               <span className='text-slate-900 md:text-white text-xl md:text-2xl mb-5'>
