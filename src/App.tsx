@@ -169,16 +169,6 @@ function App() {
       }
     });
   }, [currentSlide]);
-  //   gsap.to(".dj-logo", {
-  //     opacity: 1,
-  //     scale: 1,
-  //     duration: 1.2,
-  //     ease: "elastic.out(1, 0.5)",
-  //     delay: 2.2,
-  //     rotate: 360,
-  //     boxShadow: "0px 0px 40px 10px #a855f7",
-  //   });
-  // }, []);
 
   return (
     <div
